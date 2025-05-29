@@ -1,0 +1,76 @@
+/* src/components/UrgentHelpChat.css */
+
+.urgent-container {
+  background: #ffffff;
+  padding: 2rem;
+  width: 60%;
+  margin: 2rem auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.urgent-heading {
+  text-align: center;
+  color: #007BFF;
+  margin-bottom: 1.5rem;
+}
+
+.chat-box {
+  background: #f9f9f9;
+  height: 300px;
+  overflow-y: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.chat-message {
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  border-radius: 10px;
+  width: fit-content;
+  max-width: 70%;
+}
+
+.chat-message.user {
+  background: #d1e7ff;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.chat-message.doctor {
+  background: #d4edda;
+  align-self: flex-start;
+}
+
+.no-messages {
+  color: #888;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.send-box {
+  display: flex;
+  gap: 1rem;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.send-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.send-button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,20 @@
+.patient-history {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+  }
+  
+  .patient-history h3, .patient-history h4 {
+    color: #007acc;
+    margin-bottom: 10px;
+  }
+  
+  .patient-history div {
+    background: #f1f8ff;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  

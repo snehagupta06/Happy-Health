@@ -1,0 +1,60 @@
+/* src/components/AppointmentList.css */
+
+.appointments-container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointments-heading {
+    text-align: center;
+    color: #007acc;
+    margin-bottom: 30px;
+  }
+  
+  .appointment-card {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
+  }
+  
+  /* Hover effect */
+  .appointment-card:hover {
+    background-color: #f1f7fc;
+  }
+  
+  /* Remove last border */
+  .appointment-card:last-child {
+    border-bottom: none;
+  }
+  /* src/components/AppointmentList.css */
+
+.appointments-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .appointments-heading {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 1.5rem;
+  }
+  
+  .appointment-card {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+  }
+  
+  .appointment-card:last-child {
+    border-bottom: none;
+  }
+  

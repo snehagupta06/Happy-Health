@@ -1,0 +1,70 @@
+/* src/components/MedicationReminder.css */
+
+.reminder-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.reminder-heading {
+  color: #007acc;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.reminder-input {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.reminder-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #007acc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reminder-button:hover {
+  background-color: #005fa3;
+}
+
+.reminders-list {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.reminders-list h3 {
+  margin-bottom: 15px;
+  color: #007acc;
+}
+
+.reminder-card {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+
+.reminder-card:hover {
+  transform: translateY(-4px);
+}
+
+.reminder-input {
+  margin-bottom: 15px;
+}

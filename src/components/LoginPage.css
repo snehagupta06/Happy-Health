@@ -1,0 +1,74 @@
+.login-page {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  .login-page h2 {
+    margin-bottom: 20px;
+    color: #007acc;
+  }
+  
+  /* Fix here: No background color, no color in this */
+  .login-page button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for normal buttons */
+  .login-page button:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Login form styling */
+  .login-page form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  /* Inputs */
+  .login-page input {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Separate Button Styles */
+  .login-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .active-btn {
+    background-color: #007acc;
+    color: white;
+  }
+  
+  .inactive-btn {
+    background-color: #f0f0f0;
+    color: #555;
+    border: 1px solid #ccc;
+  }
+  
+  .login-btn {
+    background-color: #007acc;
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

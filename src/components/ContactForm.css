@@ -1,0 +1,38 @@
+.contact-form {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    color: #1976d2;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .contact-form button {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #1976d2;
+  }
+  
